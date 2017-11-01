@@ -1,1 +1,173 @@
+﻿/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, aside, canvas, details, embed, 
+figure, figcaption, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 2em;
+	background-image: url('images/index/taustakuva2.jpg');
+	background-size: cover;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1 { 
+	font-size: 24px; 
+	}
+	
+h2 { 
+	font-size: 20px; 
+	}
+	
+h1,h2 { 
+	font-weight: bold; 
+	margin: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+p { 
+	padding: 5px; 
+}
+
+
+nav {
+	padding-top: 2%;
+}
+
+header { 
+   margin: 2% 17% 10px;
+}
+
+.flex-container {
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: space-around;
+    margin: 5% 0 3% 0;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6em;
+}
+
+	.flex-item1 img {
+		width: 100%;
+    	height: auto;
+   	 	space-around: 50px;
+		box-sizing: border-box;
+	}
+
+
+	.flex-item2 {
+		width: 100%;
+    	height: auto;
+    	padding-top: 2%;
+		font-family: 'Dosis', sans-serif;
+		box-sizing: border-box;
+
+	}
+
+.flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    margin: 2% 0 2% 0;
+}
+
+.flex-item2 {
+    height: auto;
+    margin: 0 3%;
+    width: auto;
+}
+
+
+
+aside, footer { 
+   padding: 15px 1em;
+   margin: 0 17% 10px;
+   background-color:#ffffff;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+
+}
+
+article {
+	font-size: 15px; 
+	padding: 15px 35px;
+   	margin: 0 17% 10px;
+  	background-color: #fff;
+   	font-family: Arial, Helvetica, sans-serif;
+   	border-radius: 10px;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+   color: #fff;
+}
+
+a:visited {
+   color: #fff;
+}
+
+a:hover {
+   color: #ff69b4;
+}
+
+a:active {
+   color: #ffa500;
+} 
+	
+@media(max-width: 500px)  {
+    .flex-item1 img {
+        clear: both;
+    }
+    a:visited {
+        color: #000;
+    }
+    .flex-item2 {
+        font-family: 'Candal', sans-serif;
+        width: 100px;
+    }
+}	
+
+footer	{
+	text-align: center;
+}
