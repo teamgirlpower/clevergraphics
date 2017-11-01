@@ -1,6 +1,7 @@
 LI.5
-Toimitusjohtaja
-Asiakaspalvelu
+Toimitusjohtaja/CEO    Sari Lepistö
+Asiakaspalvelu/Customer Service   Ville Sairio
+/Human Resources Manager    Petri Koski
 
 LI.6
 
