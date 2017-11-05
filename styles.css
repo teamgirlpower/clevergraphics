@@ -16,7 +16,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font-family: Arial, Helvetica, sans-serif;
-	vertical-align: baseline;
+	vertical-align: left;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -73,52 +73,46 @@ nav {
 }
 
 header { 
-   margin: 2% 17% 10px;
+    margin: 2% 13% 10px;
 }
 
-.flex-container {
+.flex-container1 {
 	display: flex;
   	flex-flow: row wrap;
   	justify-content: space-around;
     margin: 5% 0 3% 0;
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-size: 1.6em;
 }
 
-	.flex-item1 img {
-		width: 100%;
-    	height: auto;
-   	 	space-around: 50px;
-		box-sizing: border-box;
-	}
-
-
-	.flex-item2 {
-		width: 100%;
-    	height: auto;
-    	padding-top: 2%;
-		font-family: 'Dosis', sans-serif;
-		box-sizing: border-box;
-
-	}
+.flex-item0 img {
+	width: 100%;
+    height: auto;
+   	space-around: 50px;
+	box-sizing: border-box;
+}
 
 .flex-container2 {
-    display: -webkit-flex;
-    display: flex;
-    margin: 2% 0 2% 0;
+	display: flex;
+  	flex-flow: no wrap;
+  	justify-content: space-around;
+    margin: 5% 0 3% 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
 }
 
-.flex-item2 {
+.flex-item1, .flex-item2, .flex-item3, .flex-item4 {
+	width: 100%;
     height: auto;
-    margin: 0 3%;
-    width: auto;
+    padding-top: 2%;
+	font-family: 'Oswald', sans-serif;
+	box-sizing: border-box;
 }
-
 
 
 aside, footer { 
    padding: 15px 1em;
-   margin: 0 17% 10px;
+   margin: 0 10% 10px;
    background-color:#ffffff;
    font-family: Arial, Helvetica, sans-serif;
    border-radius: 10px;
@@ -127,8 +121,8 @@ aside, footer {
 
 article {
 	font-size: 15px; 
-	padding: 15px 35px;
-   	margin: 0 17% 10px;
+	padding: 15px 3px;
+   	margin: 5% 10% 10px;
   	background-color: #fff;
    	font-family: Arial, Helvetica, sans-serif;
    	border-radius: 10px;
@@ -144,7 +138,7 @@ a:link {
 }
 
 a:visited {
-   color: #fff;
+   color: #000;
 }
 
 a:hover {
@@ -156,13 +150,17 @@ a:active {
 } 
 	
 @media(max-width: 500px)  {
-    .flex-item1 img {
+	.flex-container1, .flex-container2 {
+		flex-flow: row wrap;
+
+	}
+    .flex-item0 img {
         clear: both;
     }
     a:visited {
         color: #000;
     }
-    .flex-item2 {
+    .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
         font-family: 'Oswald', sans-serif;
         width: 100px;
     }
