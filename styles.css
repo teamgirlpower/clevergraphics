@@ -160,11 +160,7 @@ a:visited {
 }
 
 a:hover {
-<<<<<<< HEAD
    color: #A5D85D;
-=======
-   color: #ecf646;
->>>>>>> 5556616a595c16a2567a09e9a139f31c3fe96d33
 }
 
 a:active {
@@ -180,7 +176,7 @@ a:active {
         clear: both;
     }
 a:link {
-   color: #fff;
+   color: #49332D;
 }
 
 a:visited {
