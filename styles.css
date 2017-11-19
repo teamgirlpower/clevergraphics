@@ -103,7 +103,7 @@ header {
     font-size: 1.6em;
 }
 
-.flex-item1, .flex-item2, .flex-item3, .flex-item4 {
+.flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item8, .flex-item9 {
 	width: 100%;
     height: auto;
     padding-top: 2%;
