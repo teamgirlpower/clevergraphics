@@ -103,7 +103,7 @@ header {
     font-size: 1.6em;
 }
 
-.flex-item1, .flex-item2, .flex-item3, .flex-item4, .flex-item8, .flex-item9 {
+.flex-item1, .flex-item2, .flex-item3, .flex-item4 {
 	width: 100%;
     height: auto;
     padding-top: 2%;
@@ -113,10 +113,11 @@ header {
 
 .flex-container3 {
 	display: flex;
-  	flex-flow: no wrap;
+  	flex-flow: nowrap;
   	justify-content: space-around;
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6em;
+    width: 100%;
 }
 
 .flex-item5, .flex-item6, .flex-item7 {
@@ -125,7 +126,7 @@ header {
 	font-family: Arial, Helvetica, sans-serif;
 	box-sizing: border-box;
 	padding-top: 2%;
-        font-size: 100%;
+    font-size: 100%;
 
 
 }
@@ -133,7 +134,7 @@ header {
 aside, footer { 
    padding: 15px 1em;
    margin: 0 10% 10px;
-   background-color:#ffffff;
+   background-color: #ffffff;
    font-family: Arial, Helvetica, sans-serif;
    border-radius: 10px;
    text-align: center;
@@ -142,7 +143,7 @@ aside, footer {
 
 article {
 	font-size: 80%; 
-	padding: 15px 3px 8px 25px;
+	padding: 10px 3px 8px 2%;
    	margin: 5% 10% 10px;
   	background-color: #fff;
    	font-family: Arial, Helvetica, sans-serif;
@@ -156,7 +157,7 @@ a {
 }
 
 a:link {
-   color: #49332D;
+   color: #8dd017;
 }
 
 a:visited {
@@ -180,7 +181,7 @@ a:active {
         clear: both;
     }
 a:link {
-   color: #49332D;
+   color: #8dd017;
 }
 
 a:visited {
