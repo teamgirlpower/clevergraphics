@@ -179,6 +179,12 @@ a:active {
     .flex-item0 img {
         clear: both;
     }
+    
+.flex-item1, .flex-item2, .flex-item3, .flex-item4 {
+    width: 100%;
+    }
+    
+    
 a:link {
    color: #8dd017;
 }
