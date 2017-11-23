@@ -1,6 +1,35 @@
 ﻿<!DOCTYPE html> 
 <html lang="fi"> 
 <head>
+    <style>
+        input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+        input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+        input[type=submit]:hover {
+    background-color: #a7dee3;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #dcdcdc;
+    padding: 15px;
+}
+    </style>
 	<title>Clever Graphics</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -76,6 +105,25 @@ eero.h@clevergraphics.fi</p></div><br>
 		<p>&copy; Clever Graphics, 2017<br>
 		        	<a href="contact-en.html"><img src="images/index/english.png"/></a>
 </p>
+        </p>
+
+        <h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Nimi</label>
+    <input type="text" id="fname" name="firstname" placeholder="Nimi..">
+
+    <label for="lname">Otsikko</label>
+    <input type="text" id="lname" name="lastname" placeholder="Otsikko..">
+
+
+    <label for="subject">Viesti</label>
+    <textarea id="subject" name="subject" placeholder="Kirjoita viesti tähän.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 
 	</footer> 
 </body>
