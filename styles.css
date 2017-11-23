@@ -26,7 +26,13 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 2em;
+<<<<<<< HEAD
 	background-image: url('http://i66.tinypic.com/102w979.jpg');
+=======
+	background-image: url('http://i66.tinypic.com/282j52c.jpg');
+
+
+>>>>>>> 4d194950d0d57fcfc2e1c142e05a5d84122b01a9
 	background-size: cover;
 }
 
