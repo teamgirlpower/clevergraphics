@@ -146,8 +146,8 @@ article {
   	background-color: #fff;
    	font-family: Arial, Helvetica, sans-serif;
    	border-radius: 10px;
-	opacity: 0.8;
-	filter: alpha(opacity=80); /* For IE8 and earlier */
+	opacity: 0.95;
+	filter: alpha(opacity=95); /* For IE8 and earlier */
 }
 
 a {
@@ -182,23 +182,23 @@ a:active {
     }
     
 .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
-    width: 100%;
+    	width: 100%;
     }
     
 a:link {
-   color: #8dd017;
+   	color: #8dd017;
 }
 
 a:visited {
-   color: #49332D;
+   	color: #49332D;
 }
 
 a:hover {
-   color: #A5D85D;
+   	color: #A5D85D;
 }
 
 a:active {
-   color: #69B202;
+   	color: #69B202;
 } 
     .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
     	font-family: 'Oswald', sans-serif;
