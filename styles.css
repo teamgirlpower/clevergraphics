@@ -60,7 +60,7 @@ h2 {
 	
 h1,h2 { 
 	margin: 15px;
-    	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 	color: #49332D;
 	text-align: center;
 }
@@ -74,21 +74,21 @@ nav {
 }
 
 header { 
-    	margin: 2% 13% 10px;
+    margin: 2% 13% 10px;
 }
 
 .flex-container1 {
 	display: flex;
   	flex-flow: row wrap;
   	justify-content: space-around;
-    	margin: 5% 0 3% 0;
-    	font-family: 'Oswald', sans-serif;
-    	font-size: 1.6em;
+    margin: 5% 0 3% 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
 }
 
 .flex-item0 img {
 	width: 100%;
-    	height: auto;
+    height: auto;
 	box-sizing: border-box;
 }
 
@@ -96,15 +96,15 @@ header {
 	display: flex;
   	flex-flow: nowrap;
   	justify-content: space-around;
-    	margin: 5% 0 3% 0;
-    	font-family: 'Oswald', sans-serif;
-    	font-size: 1.6em;
+    margin: 5% 0 3% 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.6em;
 }
 
 .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
 	width: 100%;
-    	height: auto;
-    	padding-top: 2%;
+    height: auto;
+    padding-top: 2%;
 	font-family: 'Oswald', sans-serif;
 	box-sizing: border-box;
 }
@@ -118,13 +118,13 @@ header {
     	width: 100%;
 }
 
-.flex-item5, .flex-item6, .flex-item7 {
+.flex-item5, .flex-item6 {
 	width: 100%;
-    	height: auto;
+    height: auto;
 	font-family: "Arial", "Helvetica", sans-serif;
 	box-sizing: border-box;
 	padding-top: 2%;
-    	font-size: 100%;
+    font-size: 100%;
 
 
 }
@@ -152,7 +152,7 @@ article {
 
 a {
 	text-decoration: none;
-    	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -202,6 +202,7 @@ a:active {
 } 
     .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
     	font-family: 'Oswald', sans-serif;
+        text-align: center;
     	width: 100%;
     }
     
