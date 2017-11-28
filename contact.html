@@ -91,14 +91,24 @@ eero.h@clevergraphics.fi</p>
 <div class="flex-item6">
 
 <h1>Contact Form</h1>
+	
+	<?php
+if ($_POST['submit']) {
+    if (mail ($to, $subject, $body, $from)) { 
+        echo '<p>Your message has been sent!</p>';
+    } else { 
+        echo '<p>Something went wrong, go back and try again!</p>'; 
+    }
+}
+?>
 
 <div class="container">
-	<form action="" method="post">
-    <label for="fname">Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Name...">
+<form method="post" action="index.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="firstname" placeholder="Name...">
 
-    <label for="lname">Title</label>
-    <input type="text" id="lname" name="lastname" placeholder="Title...">
+    <label for="title">Title</label>
+    <input type="text" id="title" name="lastname" placeholder="Title...">
 
 
     <label for="subject">Message</label>
@@ -106,6 +116,7 @@ eero.h@clevergraphics.fi</p>
 
    <!-- <input type="submit" value="Submit"> -->
 <input type="submit" name="submit" value="Submit" />
+
 
   </form>
 </div>
