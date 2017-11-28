@@ -60,7 +60,7 @@ h2 {
 	
 h1,h2 { 
 	margin: 15px;
-    font-family: 'Oswald', sans-serif;
+    	font-family: 'Oswald', sans-serif;
 	color: #49332D;
 	text-align: center;
 }
@@ -175,6 +175,10 @@ a:active {
 @media(max-width: 1000px)  {
 	.flex-container1, .flex-container2, .flex-container3 {
 		flex-flow: row wrap;
+	}
+	
+body {
+	background-image: url('http://i67.tinypic.com/vosimv.jpg');
 	}
 	
 .flex-item0 img {
