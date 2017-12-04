@@ -15,8 +15,9 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Arial", "Helvetica", sans-serif;
 	vertical-align: left;
+	kerning: normal;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -26,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 2em;
-	background-image: url('http://i66.tinypic.com/102w979.jpg');
+	background-image: url('https://i.imgur.com/o7xz7wd.jpg');
 	background-size: cover;
 }
 
@@ -58,17 +59,15 @@ h2 {
 	}
 	
 h1,h2 { 
-	font-weight: bold; 
 	margin: 15px;
-	font-family: Arial, Helvetica, sans-serif;
+    	font-family: 'Oswald', sans-serif;
 	color: #49332D;
-	text-align:center
-	}
+	text-align: center;
+}
 	
 p { 
 	padding: 5px; 
 }
-
 
 nav {
 	padding-top: 2%;
@@ -95,7 +94,7 @@ header {
 
 .flex-container2 {
 	display: flex;
-  	flex-flow: no wrap;
+  	flex-flow: nowrap;
   	justify-content: space-around;
     margin: 5% 0 3% 0;
     font-family: 'Oswald', sans-serif;
@@ -114,15 +113,15 @@ header {
 	display: flex;
   	flex-flow: nowrap;
   	justify-content: space-around;
-	font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.6em;
-    width: 100%;
+	font-family: "Arial", "Helvetica", sans-serif;
+    	font-size: 1.6em;
+    	width: 100%;
 }
 
-.flex-item5, .flex-item6, .flex-item7 {
+.flex-item5, .flex-item6 {
 	width: 100%;
     height: auto;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Arial", "Helvetica", sans-serif;
 	box-sizing: border-box;
 	padding-top: 2%;
     font-size: 100%;
@@ -131,12 +130,12 @@ header {
 }
 
 aside, footer { 
-   padding: 15px 1em;
-   margin: 0 10% 10px;
-   background-color: #ffffff;
-   font-family: Arial, Helvetica, sans-serif;
-   border-radius: 10px;
-   text-align: center;
+   	padding: 15px 1em;
+   	margin: 0 10% 10px;
+   	background-color: #ffffff;
+   	font-family: "Arial", "Helvetica", sans-serif;
+   	border-radius: 10px;
+   	text-align: center;
 
 }
 
@@ -145,64 +144,70 @@ article {
 	padding: 10px 3px 8px 2%;
    	margin: 5% 10% 10px;
   	background-color: #fff;
-   	font-family: Arial, Helvetica, sans-serif;
+   	font-family: "Arial", "Helvetica", sans-serif;
    	border-radius: 10px;
+	opacity: 0.95;
+	filter: alpha(opacity=95); /* For IE8 and earlier */
 }
 
 a {
 	text-decoration: none;
-    	font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 a:link {
-   color: #8dd017;
+   	color: #8dd017;
 }
 
 a:visited {
-   color: #49332D;
+   	color: #49332D;
 }
 
 a:hover {
-   color: #A5D85D;
+   	color: #A5D85D;
 }
 
 a:active {
-   color: #69B202;
+   	color: #69B202;
 } 
 	
 @media(max-width: 1000px)  {
 	.flex-container1, .flex-container2, .flex-container3 {
 		flex-flow: row wrap;
-
 	}
-    .flex-item0 img {
+	
+body {
+	background-image: url('http://i67.tinypic.com/vosimv.jpg');
+	}
+	
+.flex-item0 img {
         clear: both;
     }
     
 .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
-    width: 100%;
+    	width: 100%;
     }
     
-    
 a:link {
-   color: #8dd017;
+   	color: #8dd017;
 }
 
 a:visited {
-   color: #49332D;
+   	color: #49332D;
 }
 
 a:hover {
-   color: #A5D85D;
+   	color: #A5D85D;
 }
 
 a:active {
-   color: #69B202;
+   	color: #69B202;
 } 
     .flex-item1, .flex-item2, .flex-item3, .flex-item4 {
-    font-family: 'Oswald', sans-serif;
-    width: 100px;
+    	font-family: 'Oswald', sans-serif;
+        text-align: center;
+    	width: 100%;
     }
     
     .flex-item5, .flex-item6, .flex-item7 {
@@ -214,7 +219,7 @@ a:active {
   	article {
   	line-height: 120%;
   	font-size: 90%;
-  	font-family: Arial, Helvetica, sans-serif;
+  	font-family: "Arial", "Helvetica", sans-serif;
 }	
 
 	h1 {

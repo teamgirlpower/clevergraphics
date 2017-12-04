@@ -1,9 +1,41 @@
 ﻿<!DOCTYPE html> 
 <html lang="fi"> 
 <head>
+    <style>
+        input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+        input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+        input[type=submit]:hover {
+    background-color: #a7dee3;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #dcdcdc;
+    padding: 15px;
+}
+    </style>
 	<title>Clever Graphics</title>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tutorials for free image editing software">
+    <meta name="keywords" content="free image editing software tutorials, gimp tutorials, paintnet tutorials, tutorials for free software">
+    <meta name="author" content="Clever Graphics">
 	
 	<!--[if lt IE 9]>
 		<script src="files/html5shiv.js"></script> 
@@ -12,6 +44,8 @@
 	<link rel="stylesheet" href="styles.css">
 	
 	<link href="https://fonts.googleapis.com/css?family=Dosis:200|Oswald" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="images/index/favicon.ico" />
 	
 	</head> 
     
@@ -23,7 +57,7 @@
         	<img src="http://svgshare.com/i/40n.svg"/></div></div>
 		<div class="flex-container2">
         	<div class="flex-item1"><a href="index-en.html">HOME</a></div>
-        	<div class="flex-item2"><a href="tutorials.html">TUTORIALS</a></div>
+        	<div class="flex-item2"><a href="tutorials-en.html">TUTORIALS</a></div>
             <div class="flex-item3"><a href="downloads-en.html">DOWNLOADS</a></div> 
             <div class="flex-item4"><a href="contact-en.html">•CONTACT</a></div>
             
@@ -37,43 +71,52 @@
 
 <div class="flex-container3">
 
-<div class="flex-item7"><p>We can be contacted 24/7 and we will answer to you within office hours in 2 days time.</p> </div>
-
-<div class="flex-item5">
-
-<p>
-CEO, chief executive officer<br>
-Anna Kärkkäinen<br>
-anna.k@clevergraphics.fi<br><br>
-
-Sales manager<br>
-Tomi Perttula<br>
+<div class="flex-item5"><p>We can be contacted 24/7 and we will answer to you within office hours in 2 days time.</p> <br>
+    
+<p><b>CEO, Chief Executive Officer</b> Anna Kärkkäinen<br>
+anna.k@clevergraphics.fi</p>
+    
+<p><b>Sales Manager</b> Tomi Perttula<br>
 tomi.p@clevergraphics.fi</p>
     
+<p><b>Customer Service</b> Maija Lappalainen<br>
+maija.l@clevergraphics.fi</p>
+
+<p><b>Collaboration</b> Eero Haapakoski<br>
+eero.h@clevergraphics.fi</p>
+
 </div>
 
+    
 <div class="flex-item6">
 
-<p>Customer service<br>
-Maija Lappalainen<br>
-maija.l@clevergraphics.fi<br><br>
+<h1>Contact Form</h1>
 
-Collaboration<br>
-Eero Haapakoski<br>
-eero.h@clevergraphics.fi</p></div><br>
-            
-            </div>
+<div class="container">
+<form method="post" action="index.php">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="firstname" placeholder="Name...">
+
+    <label for="title">Title</label>
+    <input type="text" id="title" name="lastname" placeholder="Title...">
+
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Your message goes here..." style="height:200px"></textarea>
+
+   <!-- <input type="submit" value="Submit"> -->
+<input type="submit" name="submit" value="Submit" />
+
+
+  </form>
+</div>
+    </div>
 
 </article>	
 
-		
-
-	
 	<footer role="contentinfo"> 
 		<p>&copy; Clever Graphics, 2017<br>
-		        	<a href="contact.html"><img src="images/index/finnish.png"/></a>
-</p>
-
-	</footer> 
+		        	<a href="contact.html"><img src="images/index/finnish.png"/></a></p>
 </body>
+</footer>  
 </html>
